@@ -23,7 +23,7 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>yo it's {name ? name : "Loading Name"}</h1>
+      <h1>Yo it's {name ? name : "Loading Name"}!</h1>
     </main>
   );
 }
